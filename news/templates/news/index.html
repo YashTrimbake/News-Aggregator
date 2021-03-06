@@ -11,36 +11,37 @@
         </form>
     </center>
     </div>
+    <marquee><b> • News of the hour • </b></marquee>
     <div class="container">
         <div class="row">
             <div class="col-6">
-                    <h3 class="text-centre"> News from Times of india</h3>
+                    <h3 class="text-centre"><a href="https://timesofindia.indiatimes.com/briefs">News from Times of India</a></h3>
                     {% for n in toi_news %}
-                    <h5> -  {{n}} </h5>
+                    <h5><a href="https://timesofindia.indiatimes.com/briefs">-  {{n}}</a> </h5>
                     <hr>
                     {% endfor %}
                     <br>
             </div>
             <div class="col-6">
-                    <h3 class="text-centre">News from NDTV</h3>
+                    <h3 class="text-centre"><a href="https://www.ndtv.com/india?pfrom=home-ndtv_mainnavgation">News from NDTV</a></h3>
                     {% for htn in ndtv_news %}
-                    <h5> - {{htn}} </h5>
+                    <h5><a href="https://www.ndtv.com/india?pfrom=home-ndtv_mainnavgation"> - {{htn}} </a></h5>
                     <hr>
                     {% endfor %}
                     <br>
             </div>
             <div class="col-6">
-                    <h3 class="text-centre">News from BBC</h3>
+                    <h3 class="text-centre"><a href="https://www.bbc.com/news/world/asia/india">News from BBC</a></h3>
                     {% for htn in bbc_news %}
-                    <h5> - {{htn}} </h5>
+                    <h5><a href="https://www.bbc.com/news/world/asia/india"> - {{htn}} </a></h5>
                     <hr>
                     {% endfor %}
                     <br>
             </div>
             <div class="col-6">
-                    <h3 class="text-centre">News from NEWS18</h3>
+                    <h3 class="text-centre"><a href="https://www.news18.com/india/">News from NEWS18</a></h3>
                     {% for htn in news18_news %}
-                    <h5> - {{htn}} </h5>
+                    <h5><a href="https://www.news18.com/india/"> - {{htn}} </a></h5>
                     <hr>
                     {% endfor %}
                     <br>
